@@ -1,0 +1,22 @@
+{
+  "name": "coderbyte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "interview",
+    "coding",
+    "algorithms"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Rohan Paul",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "tape": "^4.8.0"
+  }
+}
