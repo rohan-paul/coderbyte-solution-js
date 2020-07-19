@@ -2,7 +2,7 @@
 
 Use the Parameter Testing feature in the box below to test your code with different arguments.
 */
-*
+
 function FirstReverse(str) { 
 var reverse = '';
     for(var i = str.length - 1; i >= 0; i--)

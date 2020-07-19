@@ -50,3 +50,12 @@ testing-code-3.js
 testing-scribling-code.js
 testing-code-1.js
 Cracking-The-Coding-Interview-Note-Gitignore-IT.odt
+
+
+#ignore file name ending in "-bkp.js" OR "-bkp.ts"  OR "-bkp.py"  OR "-test.js" OR "-test.ts" OR "-test.py" in its name. So I will have to put "-test.js" at all files that is just for my development-time random testing code .
+**/*-bkp.js
+**/*-bkp.ts
+**/*-bkp.py
+**/*-test.js
+**/*-test.ts
+**/*-test.py
